@@ -1,0 +1,13 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+@import "formRegister.css";
+@toastr_css;
+
+.btn-cia{
+    background-color: #01003D;
+}
+
+.btn-cia-oragen{
+    background-color: #A36200;
+}

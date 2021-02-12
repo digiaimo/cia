@@ -1,0 +1,1 @@
+(()=>{var e=document.getElementById("self"),t=document.getElementById("file-name");e.addEventListener("change",(function(){t.textContent=this.value}))})();

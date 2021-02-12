@@ -1,0 +1,29 @@
+.formRegister{
+    width: 400px !important;
+    color: black;
+}
+
+.inputs{
+    padding: 10px;
+    border: #282a36;
+
+}
+
+a.link:link{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    color: red;
+    text-decoration: none;
+}
+
+a:visited{
+    color: black;
+    text-decoration: none;
+}
+
+#self{
+    display: none;
+}
