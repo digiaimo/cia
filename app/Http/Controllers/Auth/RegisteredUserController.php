@@ -188,8 +188,11 @@ class RegisteredUserController extends Controller
             return redirect(RouteServiceProvider::HOME);
         }catch (\Exception $exception)
         {
-            dd($exception);
             report($exception);
+
+            toastr()->error('Erro ao fazer ao criar senha ' . $exception->getMessage());
+
+            return redirect()->route('welcome');
 
         }
 
